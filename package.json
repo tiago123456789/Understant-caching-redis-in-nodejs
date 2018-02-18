@@ -1,0 +1,29 @@
+{
+  "name": "Understant-caching-redis-in-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "node_modules/.bin/nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiago123456789/Understant-caching-redis-in-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiago123456789/Understant-caching-redis-in-nodejs/issues"
+  },
+  "homepage": "https://github.com/tiago123456789/Understant-caching-redis-in-nodejs#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.16.2",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.0"
+  }
+}
